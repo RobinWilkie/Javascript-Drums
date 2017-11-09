@@ -1,0 +1,38 @@
+body,
+html {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(concert.jpeg) no-repeat center center;
+    background-size: center;
+}
+
+.keys {
+    display: flex;
+}
+
+.key {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+    border-radius: 4px;
+    margin: 5px;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+kbd {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2em;
+}
